@@ -1,8 +1,14 @@
 import React from 'react';
 import './App.css';
-import luffy from './luffy-face.jpg';
-import deku from './deku-face.jpg';
-import naruto from './naruto-face.jpg';
+import luffy from './images/luffy-face.jpg';
+import deku from './images/deku-face.jpg';
+import naruto from './images/naruto-face.jpg';
+import eleven11 from './images/taeyeon.jpg';
+import blanc from './images/blanc.jpg';
+import cidergirl from './images/cidergirl.jpg';
+import tenki_no_ko from './images/tenki-no-ko.jpg';
+import all_about_you from './images/all-about-you.jpg';
+import breathe from './images/breathe.jpg';
 
 let request = new XMLHttpRequest();
 request.open("GET", "https://gitcdn.xyz/repo/justiau/streams-script/master/bookmarklet.js", false);
@@ -10,7 +16,13 @@ request.send();
 
 const script = request.responseText;
 const text = "STREAMS Rego Script"
-const images = [luffy,deku,naruto]
+const images = [eleven11,blanc,cidergirl,tenki_no_ko,all_about_you,breathe]
+const imgStyle = {
+	maxWidth: 280,
+	maxHeight: 280,
+	width: 'auto',
+	height: 'auto'
+}
 
 class Bookmarklet extends React.Component {
 	constructor(props) {
@@ -34,6 +46,7 @@ class Bookmarklet extends React.Component {
 				<img
 				src={images[this.state.index]}
 				alt={this.state.text}
+				style={imgStyle}
 				/>
 			</a> :
 			<a href={script}>
@@ -45,6 +58,7 @@ class Bookmarklet extends React.Component {
 
 class App extends React.Component {
 	render() {
+		const startingIndex = 0;
 		return (
 			<div className="App">
 				<header className="App-header">
@@ -52,13 +66,13 @@ class App extends React.Component {
 				</header>
 				<body className="App-body">
 					<div id="bookmarklets">
-						<Bookmarklet index={0} text={text}/>
-						<Bookmarklet index={0} text={text}/>
-						<Bookmarklet index={0} text={text}/>
-						<Bookmarklet index={0} text={text}/>
-						<Bookmarklet index={0} text={text}/>
-						<Bookmarklet index={0} text={text}/>
-						<Bookmarklet index={0} text={text}/>
+						<Bookmarklet index={startingIndex} text={text}/>
+						<Bookmarklet index={startingIndex} text={text}/>
+						<Bookmarklet index={startingIndex} text={text}/>
+						<Bookmarklet index={startingIndex} text={text}/>
+						<Bookmarklet index={startingIndex} text={text}/>
+						<Bookmarklet index={startingIndex} text={text}/>
+						<Bookmarklet index={startingIndex} text={text}/>
 						<br/>
 						<Bookmarklet text={text}/>
 					</div>
