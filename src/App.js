@@ -18,8 +18,8 @@ const script = request.responseText;
 const text = "STREAMS Rego Script"
 const images = [eleven11,blanc,cidergirl,tenki_no_ko,all_about_you,breathe]
 const imgStyle = {
-	maxWidth: 280,
-	maxHeight: 280,
+	maxWidth: 260,
+	maxHeight: 260,
 	width: 'auto',
 	height: 'auto'
 }
@@ -58,7 +58,7 @@ class Bookmarklet extends React.Component {
 
 class App extends React.Component {
 	render() {
-		const startingIndex = 0;
+		const startingIndex = 1;
 		return (
 			<div className="App">
 				<header className="App-header">
