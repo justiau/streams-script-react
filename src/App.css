@@ -26,8 +26,8 @@ a:hover {
 }
 
 img {
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
   border: solid 2px transparent;
 }
 
@@ -38,4 +38,23 @@ img:hover {
 h2 {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+h1 {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+p {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+#notes p {
+  font-size: calc(10px + 1vmin)
+}
+
+ol {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
 }
