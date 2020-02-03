@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3424e68318032d11806d57db960269d9",
+    "revision": "a38603be4722442a07597ca0a41143d3",
     "url": "/streams-script-react/index.html"
   },
   {
-    "revision": "8935b8708059a274f560",
-    "url": "/streams-script-react/static/css/main.fe396cd3.chunk.css"
+    "revision": "bd60c484c2917d9adfb5",
+    "url": "/streams-script-react/static/css/main.d29730ed.chunk.css"
   },
   {
     "revision": "0f4682a48d837876d656",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/streams-script-react/static/js/2.66fa9e4b.chunk.js.LICENSE"
   },
   {
-    "revision": "8935b8708059a274f560",
-    "url": "/streams-script-react/static/js/main.98324f0e.chunk.js"
+    "revision": "bd60c484c2917d9adfb5",
+    "url": "/streams-script-react/static/js/main.dce4d8cf.chunk.js"
   },
   {
     "revision": "9e1fdf74b7f3b5013da7",
@@ -38,14 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "270bd3d1789dfa03e23c90735a5923a4",
     "url": "/streams-script-react/static/media/cidergirl.270bd3d1.jpg"
-  },
-  {
-    "revision": "0930d94cf26aa8ca0ceb2be71d047b40",
-    "url": "/streams-script-react/static/media/luffy-face.0930d94c.jpg"
-  },
-  {
-    "revision": "10180011465e19f0f21228ad45cf796e",
-    "url": "/streams-script-react/static/media/naruto-face.10180011.jpg"
   },
   {
     "revision": "bde79dde9d9d6f527abec8f11fbf4bee",
