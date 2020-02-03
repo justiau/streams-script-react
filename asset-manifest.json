@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/streams-script-react/static/css/main.b6407d40.chunk.css",
+    "main.css": "/streams-script-react/static/css/main.87c90479.chunk.css",
     "main.js": "/streams-script-react/static/js/main.dce4d8cf.chunk.js",
     "main.js.map": "/streams-script-react/static/js/main.dce4d8cf.chunk.js.map",
     "runtime-main.js": "/streams-script-react/static/js/runtime-main.8a8ca922.js",
@@ -8,9 +8,9 @@
     "static/js/2.66fa9e4b.chunk.js": "/streams-script-react/static/js/2.66fa9e4b.chunk.js",
     "static/js/2.66fa9e4b.chunk.js.map": "/streams-script-react/static/js/2.66fa9e4b.chunk.js.map",
     "index.html": "/streams-script-react/index.html",
-    "precache-manifest.ff3f2906c0638e7e26aa9cb32759b29d.js": "/streams-script-react/precache-manifest.ff3f2906c0638e7e26aa9cb32759b29d.js",
+    "precache-manifest.d283907d9139b37e582c221f6689523c.js": "/streams-script-react/precache-manifest.d283907d9139b37e582c221f6689523c.js",
     "service-worker.js": "/streams-script-react/service-worker.js",
-    "static/css/main.b6407d40.chunk.css.map": "/streams-script-react/static/css/main.b6407d40.chunk.css.map",
+    "static/css/main.87c90479.chunk.css.map": "/streams-script-react/static/css/main.87c90479.chunk.css.map",
     "static/js/2.66fa9e4b.chunk.js.LICENSE": "/streams-script-react/static/js/2.66fa9e4b.chunk.js.LICENSE",
     "static/media/all-about-you.jpg": "/streams-script-react/static/media/all-about-you.962fd39e.jpg",
     "static/media/blanc.jpg": "/streams-script-react/static/media/blanc.3d235a32.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.8a8ca922.js",
     "static/js/2.66fa9e4b.chunk.js",
-    "static/css/main.b6407d40.chunk.css",
+    "static/css/main.87c90479.chunk.css",
     "static/js/main.dce4d8cf.chunk.js"
   ]
 }
