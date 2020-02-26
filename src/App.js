@@ -1,24 +1,32 @@
 import React from 'react';
 import './App.css';
+
 import taeyeon from './images/taeyeon.jpg';
 import blanc from './images/blanc.jpg';
 import cidergirl from './images/cidergirl.jpg';
-import tenki_no_ko from './images/tenki-no-ko.jpg';
-import all_about_you from './images/all-about-you.jpg';
+import weathering_with_you from './images/weathering_with_you.jpg';
+import your_name from './images/your_name.jpg';
+import puke from './images/puke.jpg';
+import all_about_you from './images/all_about_you.jpg';
 import breathe from './images/breathe.jpg';
+import happy_now from './images/happy_now.jpg';
+import red_ickle from './images/red_ickle.jpg';
+import spring_day from './images/spring_day.png';
+import january_rain from './images/january_rain.jpg';
+import rain from './images/rain.jpg';
 
 let request = new XMLHttpRequest();
 request.open("GET", "https://gitcdn.xyz/repo/justiau/streams-script/master/bookmarklet.js", false);
 request.send();
 
 const script = request.responseText;
-const text = "STREAMS Rego Script"
-const images = [blanc,all_about_you,breathe,taeyeon,cidergirl,tenki_no_ko]
+const text = "STREAMS Rego Script";
+const images = [blanc,all_about_you,breathe,january_rain,spring_day,weathering_with_you,taeyeon,rain,puke,red_ickle,cidergirl,happy_now,your_name];
 const imgStyle = {
 	maxWidth: 260,
 	maxHeight: 260,
 	width: 'auto',
-	height: 'auto'
+	height: 'auto',
 }
 
 class Bookmarklet extends React.Component {
