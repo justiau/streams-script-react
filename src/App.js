@@ -16,7 +16,7 @@ import january_rain from './images/january_rain.jpg';
 import rain from './images/rain.jpg';
 
 let request = new XMLHttpRequest();
-request.open("GET", "https://gitcdn.xyz/repo/justiau/streams-script/master/bookmarklet.js", false);
+request.open("GET", "https://justiau.github.io/streams-script/bookmarklet.js", false);
 request.send();
 
 const script = request.responseText;
