@@ -20,7 +20,7 @@ request.open("GET", "https://justiau.github.io/streams-script/bookmarklet.js", f
 request.send();
 
 const script = request.responseText;
-const text = "STREAMS Rego Script";
+const text = "STREAMS Script";
 const images = [blanc,all_about_you,breathe,january_rain,spring_day,weathering_with_you,taeyeon,rain,puke,red_ickle,cidergirl,happy_now,your_name];
 const imgStyle = {
 	maxWidth: 260,
